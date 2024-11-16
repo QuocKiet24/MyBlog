@@ -10,7 +10,7 @@ export default function Header() {
         to="/"
         className="whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
-        <span className="px-2 py-1 bg-gradient-to-r from-sky-800 via-rose-600 to-teal-500 rounded-lg text-white">
+        <span className="px-2 py-1 bg-gradient-to-r from-cyan-500 via-indigo-400 to-blue-500 rounded-lg text-white">
           Everda&apos;s
         </span>
         Blog
