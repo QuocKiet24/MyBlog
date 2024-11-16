@@ -5,6 +5,7 @@ import DashBoard from "./pages/DashBoard";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 export default function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
